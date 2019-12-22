@@ -1,0 +1,34 @@
+.Venue {
+    display: flex;
+    flex-direction: column;
+}
+
+.Venue > h1 {
+    font-weight: lighter;
+    font-size: 5vw;
+}
+
+.Venue > .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Venue > .section > .text-box {
+    width: 50vw;
+    padding: 5%
+}
+
+.Venue > .section > .text-box > p {
+    font-weight: normal;
+}
+
+.Venue > .section > .photo-box {
+    width: 50vw;
+    padding: 5%
+}
+
+.Venue > .section > .photo-box > img {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

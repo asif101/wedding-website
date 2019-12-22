@@ -1,0 +1,72 @@
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.badge {
+    vertical-align: middle;
+    transform: translateX(-60%);
+}
+
+
+.landing-page {
+    /* background-color: #710C4C; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page>.title-box {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page>.title-box>.left-wreath {
+    width: 20%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.landing-page>.title-box>.right-wreath {
+    width: 20%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: scaleX(-1);
+}
+
+
+.landing-page>.title-box>p {
+    font-weight: bold;
+    /* color: black; */
+    font-size: 3.5vw;
+    letter-spacing: 0.25rem;
+}
+
+.landing-page>.title-box>p>span {
+    color: #710c4c;
+    margin: 0;
+}
+
+
+.landing-page>.main-image {
+    width: 100%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 84%;
+    background-position-x: 89%;
+}
+
+.landing-page>.main-image>.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
