@@ -13,7 +13,8 @@ export default function LandingPage() {
             </div>
             <div className='title-box'>
               <div className='left-wreath' style={{ backgroundImage: 'url(./assets/images/left-wreath.png)' }}></div>
-              <p>ELIZABETH <span>&</span> ASIF</p>
+              {/* <p>ELIZABETH <span>&</span> ASIF</p> */}
+              <p>We're getting married!</p>
               <div className='right-wreath' style={{ backgroundImage: 'url(./assets/images/left-wreath.png)' }}></div>
             </div>
           </div>

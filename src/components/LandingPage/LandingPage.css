@@ -42,12 +42,9 @@
     transform: scaleX(-1);
 }
 
-
 .landing-page>.title-box>p {
-    font-weight: bold;
-    /* color: black; */
-    font-size: 3.5vw;
-    letter-spacing: 0.25rem;
+    font-family: Dancing Script;
+    font-size: 7rem;
 }
 
 .landing-page>.title-box>p>span {

@@ -1,0 +1,18 @@
+.RSVP {
+    width: 100%;
+    font-family: Cinzel;
+}
+
+.RSVP > h2 {
+    margin-top: 10vh;
+}
+
+.RSVP > p {
+    font-weight: normal;
+}
+
+.RSVP > a {
+    font-weight: normal;
+    text-decoration: none;
+}
+

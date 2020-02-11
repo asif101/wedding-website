@@ -2,7 +2,11 @@ import React from 'react';
 import './App.css';
 import { Scrollbars } from 'react-custom-scrollbars'
 import LandingPage from './components/LandingPage/LandingPage'
+import Event from './components/Event/Event'
+import RSVP from './components/RSVP/RSVP'
 import Venue from './components/Venue/Venue'
+import Directions from './components/Directions/Directions'
+import Accomodation from './components/Accomodation/Accomodation'
 
 function App() {
   return (
@@ -17,7 +21,11 @@ function App() {
 
 
       <LandingPage></LandingPage>
+      <Event></Event>
+      <RSVP></RSVP>
       <Venue></Venue>
+      <Directions></Directions>
+      <Accomodation></Accomodation>
     </Scrollbars>
   );
 }

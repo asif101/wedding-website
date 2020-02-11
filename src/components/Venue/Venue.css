@@ -4,6 +4,7 @@
 }
 
 .Venue > h1 {
+    font-family: Dancing Script;
     font-weight: lighter;
     font-size: 5vw;
 }
@@ -15,8 +16,10 @@
 }
 
 .Venue > .section > .text-box {
+    font-family: Cinzel;
     width: 50vw;
-    padding: 5%
+    padding: 5%;
+    padding-bottom: 0;
 }
 
 .Venue > .section > .text-box > p {
@@ -25,7 +28,8 @@
 
 .Venue > .section > .photo-box {
     width: 50vw;
-    padding: 5%
+    padding: 5%;
+    padding-bottom: 0;
 }
 
 .Venue > .section > .photo-box > img {

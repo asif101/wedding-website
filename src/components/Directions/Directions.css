@@ -1,0 +1,43 @@
+.Directions {
+    font-family: Cinzel;
+}
+
+.Directions > h2 {
+    margin-top: 10vh;
+}
+
+.Directions > .section {
+    display: flex;
+    justify-content: center;
+}
+
+.Directions > .section > .text-box {
+    font-family: Cinzel;
+    width: 50vw;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Directions > .section > .text-box > p {
+    font-size: calc(10px + 1.25vmin);
+    font-weight: normal;
+    text-align: left;
+}
+
+.Directions > .section > .text-box > ul > li {
+    font-size: calc(10px + 1.25vmin);
+    font-weight: normal;
+    text-align: left;
+}
+
+.Directions > .section > .photo-box {
+    width: 50vw;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.Directions > .section > .photo-box > img {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

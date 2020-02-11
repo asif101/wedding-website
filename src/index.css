@@ -6,9 +6,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+::selection {
+  background: #A8477D; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #A8477D; /* Gecko Browsers */
+}
+
+a {
+  color: #A8477D;
 }
 
 @font-face {
@@ -35,3 +41,23 @@ code {
   src: url('./fonts//raleway-regular.ttf');
   font-weight: normal;
 }
+
+
+@font-face {
+  font-family: Dancing Script;
+  src: url('./fonts//DancingScript-SemiBold.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url('./fonts//Cinzel-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url('./fonts//Cinzel-Bold.ttf');
+  font-weight: bold;
+}
+
