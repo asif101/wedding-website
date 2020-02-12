@@ -3,36 +3,57 @@
     flex-direction: column;
 }
 
-.Venue > h1 {
-    font-family: Dancing Script;
-    font-weight: lighter;
-    font-size: 5vw;
-}
-
-.Venue > .section {
+.Venue>.section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Venue > .section > .text-box {
+.Venue>.section>.text-box {
     font-family: Cinzel;
     width: 50vw;
     padding: 5%;
     padding-bottom: 0;
 }
 
-.Venue > .section > .text-box > p {
+.Venue>.section>.text-box>p {
     font-weight: normal;
 }
 
-.Venue > .section > .photo-box {
+.Venue>.section>.photo-box {
     width: 50vw;
     padding: 5%;
     padding-bottom: 0;
 }
 
-.Venue > .section > .photo-box > img {
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.Venue>.section>.photo-box>iframe {
+    width: 90%;
+    height: 31.6vw;
+}
+
+@media screen and (max-width: 990px) {
+
+
+    .Venue>.section {
+        flex-direction: column;
+    }
+
+
+    .Venue>.section>.text-box {
+        width: 90%;
+    }
+
+    /* .Venue>.section>.text-box>p {
+        font-size: 4vw;
+    } */
+
+    .Venue>.section>.photo-box {
+        width: 90%;
+    }
+
+    .Venue>.section>.photo-box>iframe {
+        width: 90%;
+        height: 70vw;
+    }
+
 }
