@@ -1,0 +1,38 @@
+.Registry {
+    display: flex;
+    flex-direction: column;
+}
+
+.Registry > .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registry > .section > .text-box {
+    font-family: Cinzel;
+    width: 50vw;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.Registry > .section > .text-box > p {
+    font-weight: normal;
+}
+
+.Registry > .section > .text-box > a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.Registry > .section > .photo-box {
+    width: 50vw;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.Registry > .section > .photo-box > img {
+    width: 65%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

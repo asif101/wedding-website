@@ -7,6 +7,8 @@ import RSVP from './components/RSVP/RSVP'
 import Venue from './components/Venue/Venue'
 import Directions from './components/Directions/Directions'
 import Accomodation from './components/Accomodation/Accomodation'
+import Picnic from './components/Picnic/Picnic'
+import Registry from './components/Registry/Registry'
 
 function App() {
   return (
@@ -24,8 +26,10 @@ function App() {
       <Event></Event>
       <RSVP></RSVP>
       <Venue></Venue>
-      <Directions></Directions>
       <Accomodation></Accomodation>
+      <Picnic></Picnic>
+      <Registry></Registry>
+      <Directions></Directions>
     </Scrollbars>
   );
 }

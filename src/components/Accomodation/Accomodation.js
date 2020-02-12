@@ -7,6 +7,9 @@ export default class Accomodation extends React.Component {
         return (
             <div className='Accomodation'>
                 <div className='section'>
+                    <div className='photo-box'>
+                        <img src='./assets/images/hampton-inn.jpg' alt="logo" />
+                    </div>
                     <div className='text-box'>
                         <h2>Accomodation</h2>
                         <p>
@@ -19,9 +22,7 @@ export default class Accomodation extends React.Component {
                             <li>Booking Link: <a href='http://group.hamptoninn.com/McMahonRahmanEvent'>http://group.hamptoninn.com/McMahonRahmanEvent</a></li>
                         </ul>
                     </div>
-                    <div className='photo-box'>
-                        <img src='./assets/images/hampton-inn.jpg' alt="logo" />
-                    </div>
+
                 </div>
                 <div className='hr' style={{ marginTop: '10vh' }} />
             </div>
