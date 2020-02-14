@@ -26,7 +26,7 @@ export default class Accomodation extends React.Component {
                             <li> 9800 Winchester Road, Front Royal VA 22630</li>
                             <li>P: (540) 635-1882</li>
                         </ul>
-                        <p><a href='http://group.hamptoninn.com/McMahonRahmanEvent'>Click here to book a room in our room block</a></p>
+                        <p><a target="_blank" href='http://group.hamptoninn.com/McMahonRahmanEvent'>Click here to book a room in our room block</a></p>
                     </div>
 
                 </div>
