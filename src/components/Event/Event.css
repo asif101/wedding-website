@@ -2,6 +2,7 @@
     margin-top: 1vh;
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 .Event>h2 {

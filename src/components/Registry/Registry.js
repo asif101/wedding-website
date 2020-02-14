@@ -15,7 +15,7 @@ export default class Registry extends React.Component {
                     <div className='text-box'>
                         <h2>Registry</h2>
                         <p>We are registered at Amazon: </p>
-                        <a href='https://www.amazon.com/wedding/elizabeth-mcmahon-asif-rahman-front-royal-april-2020/registry/B2RLNFTS4UIZ'>https://www.amazon.com/wedding/elizabeth-mcmahon-asif-rahman-front-royal-april-2020/registry/B2RLNFTS4UIZ</a>
+                        <a href='https://www.amazon.com/wedding/elizabeth-mcmahon-asif-rahman-front-royal-april-2020/registry/B2RLNFTS4UIZ'>Click here to see our registry</a>
                     </div>
 
                 </div>

@@ -1,6 +1,7 @@
 .Accomodation {
     display: flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 .Accomodation > .section {
@@ -31,9 +32,10 @@
     text-align: left;
     list-style-type: none;
     font-weight: normal;
+    word-break: break-all;
 }
 
-.Accomodation > .section > .text-box > ul > li > a {
+.Accomodation > .section > .text-box > p > a {
     text-decoration: none;
 }
 
@@ -46,4 +48,30 @@
 .Accomodation > .section > .photo-box > img {
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (max-width: 990px) {
+
+
+    .Accomodation>.section {
+        flex-direction: column;
+    }
+
+
+    .Accomodation>.section>.text-box {
+        width: 90%;
+        order: 1;
+    }
+
+    .Accomodation>.section>.photo-box {
+        width: 90%;
+        order: 2;
+    }
+
+    .Accomodation>.section>.photo-box>iframe {
+        width: 90%;
+        height: 70vw;
+    }
+
 }

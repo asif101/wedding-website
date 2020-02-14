@@ -3,36 +3,61 @@
     flex-direction: column;
 }
 
-.Registry > .section {
+.Registry>.section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Registry > .section > .text-box {
+.Registry>.section>.text-box {
     font-family: Cinzel;
     width: 50vw;
     padding: 5%;
     padding-bottom: 0;
 }
 
-.Registry > .section > .text-box > p {
+.Registry>.section>.text-box>p {
     font-weight: normal;
 }
 
-.Registry > .section > .text-box > a {
+.Registry>.section>.text-box>a {
     font-weight: normal;
     text-decoration: none;
 }
 
-.Registry > .section > .photo-box {
+.Registry>.section>.photo-box {
     width: 50vw;
     padding: 5%;
     padding-bottom: 0;
 }
 
-.Registry > .section > .photo-box > img {
+.Registry>.section>.photo-box>img {
     width: 65%;
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+    .Registry>.section {
+        flex-direction: column;
+    }
+
+    .Registry>.section>.text-box {
+        width: 90%;
+        order: 1;
+    }
+
+    .Registry>.section>.photo-box {
+        width: 90%;
+        order: 2;
+    }
+
+    .Registry>.section>.photo-box>iframe {
+        width: 90%;
+        height: 70vw;
+    }
+
 }

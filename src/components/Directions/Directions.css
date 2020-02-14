@@ -31,13 +31,16 @@
     text-align: left;
 }
 
-.Directions > .section > .photo-box {
-    width: 50vw;
-    padding: 5%;
-    padding-bottom: 0;
-}
 
-.Directions > .section > .photo-box > img {
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+@media screen and (max-width: 990px) {
+
+    .Directions>.section {
+        flex-direction: column;
+    }
+
+    .Directions>.section>.text-box {
+        width: 90%;
+        order: 1;
+    }
+
 }

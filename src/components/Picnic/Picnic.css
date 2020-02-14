@@ -3,30 +3,52 @@
     flex-direction: column;
 }
 
-.Picnic > .section {
+.Picnic>.section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.Picnic > .section > .text-box {
+.Picnic>.section>.text-box {
     font-family: Cinzel;
     width: 50vw;
     padding: 5%;
     padding-bottom: 0;
 }
 
-.Picnic > .section > .text-box > p {
+.Picnic>.section>.text-box>p {
     font-weight: normal;
 }
 
-.Picnic > .section > .photo-box {
+.Picnic>.section>.photo-box {
     width: 50vw;
     padding: 5%;
     padding-bottom: 0;
 }
 
-.Picnic > .section > .photo-box > img {
+.Picnic>.section>.photo-box>img {
     width: 65%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .Picnic>.section {
+        flex-direction: column;
+    }
+
+    .Picnic>.section>.text-box {
+        width: 90%;
+    }
+
+    .Picnic>.section>.photo-box {
+        width: 90%;
+    }
+
+    .Picnic>.section>.photo-box>iframe {
+        width: 90%;
+        height: 70vw;
+    }
+
 }
