@@ -14,13 +14,6 @@ function App() {
   return (
     <Scrollbars className="App">
 
-      {/* <div className="menu-bar">
-          <div>Venue</div>
-          <div>Hotel</div>
-          <div>Brunch</div>
-          <div>RSVP</div>
-        </div> */}
-
 
       <LandingPage></LandingPage>
       <Event></Event>
@@ -30,8 +23,14 @@ function App() {
       <Picnic></Picnic>
       <Registry></Registry>
       <Directions></Directions>
+
+      <div className='end-banner'>
+        <div className='hr'/>
+        <img src='./assets/images/badge.png' className="end-badge" alt="logo" />
+      </div>
+
     </Scrollbars>
   );
 }
 
-export default App;
+export default App

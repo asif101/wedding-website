@@ -53,7 +53,6 @@ export default class Directions extends React.Component {
                         </ul>
                     </div>
                 </div>
-                <div className='hr' style={{ marginTop: '10vh' }} />
             </div>
         )
     }

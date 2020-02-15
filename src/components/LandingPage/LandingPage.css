@@ -62,7 +62,7 @@
 }
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1250px) {
     .badge { 
         height: 60vw; 
         left: 0;
