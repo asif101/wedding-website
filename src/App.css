@@ -42,3 +42,11 @@
   top: 50%;
   width: 100vw;
 }
+
+.urgent-message {
+  position: absolute;
+  padding: 5px;
+  z-index: 1000;
+  background-color: #fad201;
+  text-align: left;
+}
