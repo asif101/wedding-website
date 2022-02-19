@@ -14,11 +14,6 @@ function App() {
   return (
     <Scrollbars className="App">
 
-      <div className='urgent-message'>
-      Due to the recent developments involving COVID-19 and the daily changes in recommendations and regulations on large events, we have decided to postpone our wedding to an unknown date. We do not have a new date confirmed at this time, but we will let you all know once we have a better idea. We feel this is the best way to celebrate with as many of you as possible while keeping everyone safe. Stay safe and we will be in touch!
-      </div>
-
-
       <LandingPage></LandingPage>
       <Event></Event>
       <RSVP></RSVP>
