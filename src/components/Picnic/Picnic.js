@@ -10,7 +10,7 @@ export default class Picnic extends React.Component {
                    
                     <div className='text-box'>
                         <h2>Picnic</h2>
-                        <p>For those sticking around, we invite you to join us on Sunday (May 8) for snacks and yard games in the Front Royal Area</p>
+                        <p>For those sticking around, we invite you to join us on Sunday (May 8) for snacks and yard games at a park in the Front Royal Area</p>
                         <p>Start time: 11:30am</p>
                         <p>Exact location at a park TBD</p>
                     </div>
