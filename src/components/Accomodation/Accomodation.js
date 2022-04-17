@@ -13,7 +13,7 @@ export default class Accomodation extends React.Component {
                     <div className='text-box'>
                         <h2>Accomodation</h2>
                         <p>
-                            We have a room block at the Hampton Inn Front Royal for Friday and Saturday nights - just use the link below or call and ask for the McMahon/Rahman wedding (Group code: RMW)
+                            We have a room block at the Hampton Inn Front Royal for Friday and Saturday nights - just call and ask for the McMahon/Rahman wedding (Group code: RMW)
                         </p>
                         <p>
                             Rooms with one king bed or two queen beds are available at $124 per night
@@ -26,7 +26,7 @@ export default class Accomodation extends React.Component {
                             <li> 9800 Winchester Road, Front Royal VA 22630</li>
                             <li>P: (540) 635-1882</li>
                         </ul>
-                        <p><a target="_blank" rel="noopener noreferrer" href='https://group.hamptoninn.com/tpu97f'>Click here to book a room in our room block</a></p>
+                        {/* <p><a target="_blank" rel="noopener noreferrer" href='https://group.hamptoninn.com/tpu97f'>Click here to book a room in our room block</a></p> */}
                     </div>
 
                 </div>
