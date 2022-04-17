@@ -13,16 +13,6 @@ export default class Directions extends React.Component {
                         <p>IAD (Dulles) - 1hr from hotel/country club (Front Royal, VA), 30 min from DC</p>
                         <p>DCA (Reagan) - 1hr 20min from hotel/country club, 10 min from DC</p>
                         <p>BWI (Baltimore) - 2hrs from hotel/country club, 45min-1hr from DC</p>
-                        <p>
-                            **Shuttles will be available to take guests from IAD directly to the hotel.
-                            Depending on preference and demand, there is a 4 person car for $100 or
-                            spots on a 12 seat van for $20 per person. If interested in a shuttle please
-                            contact Linda at 540-773-4660 who will be scheduling pick-up times based on
-                            everyone’s arrival time. Depending on demand, there will likely be morning,
-                            afternoon and evening bus times.**
-                        </p>
-                        <p>Linda has also offered to coordinate pick-ups from BWI or DCA if needed. Prices TBD based on need.</p>
-                        <p>There is also megabus line that connects the DC area (including IAD) to Front Royal</p>
                     </div>
                     <div className='text-box'>
                         <h3>Driving</h3>
