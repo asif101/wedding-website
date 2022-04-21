@@ -20,6 +20,23 @@
     font-weight: normal;
 }
 
+.Picnic > .section > .text-box > ul {
+    padding: 0;
+}
+   
+.Picnic > .section > .text-box > ul > li {
+    font-size: calc(10px + 1vmin);
+    text-align: center;
+    list-style-type: none;
+    font-weight: normal;
+    word-break: break-all;
+}
+
+
+.Picnic > .section > .text-box > p > a {
+    text-decoration: none;
+}
+
 .Picnic>.section>.photo-box {
     width: 50vw;
     padding: 5%;
